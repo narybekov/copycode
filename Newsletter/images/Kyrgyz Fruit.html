@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyrgyz Fruit</title>
+  
+  
+<link rel="stylesheet" href="./Kyrgyz Fruit_files/style.css"><link rel="stylesheet" href="./Kyrgyz Fruit_files/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"></head>
+<body>
+  
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo"><span class="header__span">Kyrgyz</span> Fruit</div>
+
+        <nav class="nav">
+        <a class="nav__link" href="http://127.0.0.1:5500/index.html#">Главная</a>
+        <a class="nav__link" href="http://127.0.0.1:5500/index.html#">О компании</a>
+        <a class="nav__link" href="http://127.0.0.1:5500/index.html#">Продукция</a>
+        <a class="nav__link" href="http://127.0.0.1:5500/index.html#">Сотрудничество</a>
+        <a class="nav__link" href="http://127.0.0.1:5500/index.html#">Контакты</a>
+      </nav> 
+    </div>
+  </div>
+</header>
+
+<div class="intro">
+  <div class="container">
+    <div class="intro__inner">
+      <a class="btn" href="http://127.0.0.1:5500/index.html#"> <span class="intro__btn">#1  Сухофрукты в</span> Кыргызстане</a>
+      <img class="intro__fruit" src="./Kyrgyz Fruit_files/fruit.png" alt="">
+      <h2 class="intro__suptitle"><span class="intro__span">Экспорт сухофруктов,</span> <br>
+        грецких <br> орехов, фасоли и мёда в <br>
+        Европейский Союз</h2>
+    </div>
+  </div>
+</div>
+
+<div class="reviews">
+  <div class="container">
+    <div class="reviews__inner">
+      <div class="reviews__item">
+        <span class="reviews__num">5.000+</span>
+        <span class="reviews__text">Клиент</span>
+      </div>
+      <div class="reviews__item">
+        <span class="reviews__num">8.000+</span>
+        <span class="reviews__text">Доставка</span>
+      </div>
+      <div class="reviews__item">
+        <span class="reviews__num">1.000+</span>
+        <span class="reviews__text">Рейтинги</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
