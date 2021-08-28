@@ -1,0 +1,35 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: mediumvioletred;
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    animation: render 10s ease-in-out infinite;
+}
+
+@keyframes render {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: mediumvioletred;
+    }
+    25% {
+        top: 0;
+        left: 300px;
+        background-color: rgb(97, 15, 67);
+    }
+    50% {
+        top: 500px;
+        left: 300px;
+        background-color: rgb(219, 85, 170);
+    }
+    75% {
+        top: 500px;
+        left: 0;
+        background-color: rgb(77, 45, 65);
+}
+
+

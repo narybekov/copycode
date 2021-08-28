@@ -1,0 +1,161 @@
+body {
+  font-family: 'Roboto', 'Poppins';
+  text-decoration: none;
+}
+
+span {
+  color: #fb9333;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.bee {
+  margin: -2rem -2.5rem 1rem;
+}
+
+/* Header */
+.header .navbar {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  padding-top: 60px;
+}
+
+.header .navbar .nav-item {
+  margin: 0em 0.8em;
+  font-weight: 800;
+}
+
+.header .navbar .nav-link {
+  color: #575757;
+}
+
+.header .navbar .nav-link:hover {
+  color: #fb9333;
+}
+
+/* Main */
+.main {
+  margin-top: 8em;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main button {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4em;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  padding: 16px 16px;
+  background-color: #fff0dc;
+}
+
+/* Clients */
+.clients__text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #828282;
+}
+
+.p-5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn-warning {
+  font-size: 18px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fb9333;
+  color: #fff;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  padding: 22px 39px;
+}
+
+.btn-warning:hover {
+  color: #333;
+  background-color: #fb9333;
+}
+
+.cards {
+  margin-top: 6em;
+}
+
+.info {
+  margin-top: 6em;
+}
+
+.info img {
+  width: 100%;
+}
+
+.info p {
+  line-height: 2em;
+}
+
+.nuts {
+  margin-top: 6em;
+}
+
+.nuts img {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.nuts h2 {
+  text-align: center;
+}
+
+.s_box {
+  margin-top: 6em;
+}
+
+.s_box .box {
+  background: url(../img/bg.png);
+  background-color: #EADDCA;
+  -webkit-border-radius: 5rem;
+          border-radius: 5rem;
+}
+
+.s_box .box .box-text {
+  text-align: center;
+  margin: 5em auto;
+}
+
+.s_box .box .form-control {
+  -webkit-border-radius: 30px 0 0 30px;
+          border-radius: 30px 0 0 30px;
+}
+
+.company {
+  margin-top: 6em;
+}
+
+.company h2 {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 8em;
+}
+
+.footer .row {
+  padding-top: 10px;
+}
+
+.footer .click {
+  font-size: 2.5em;
+  margin: 10px;
+}
+
+.footer .nav-link {
+  color: #575757;
+}
